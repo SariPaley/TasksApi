@@ -10,6 +10,8 @@ namespace TasksApi.Controllers
     public class TasksController : ControllerBase
     {
         int t = 0;
+
+        string test = "";
         private readonly ITaskService _taskService;
 
         public TasksController(ITaskService taskService)
